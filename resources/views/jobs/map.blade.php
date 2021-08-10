@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../css/map.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAmxpEuREslkCkU6yopJmn7BUgdHW5RqI&callback=initMap" asyuc defer></script>
+
 
 
 
