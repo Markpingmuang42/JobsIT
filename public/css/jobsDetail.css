@@ -1,0 +1,72 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Mobtserrat', sans-serif;
+}
+
+/*======================== layout ========================*/
+.showJobs {
+    width     : 1500px;
+    height    : 650px;
+    margin    : 10px 15px;
+    padding   : 15px;
+    background: rgb(187, 243, 173);
+    /* border : 1px solid red; */
+}
+
+/* ============================= section ============================= */
+section {
+    width     : auto;
+    height    : 180px;
+    border    : 1px solid black;
+    background: #ffff;
+    margin-top: 10px;
+    padding   : 10px;
+    position  : relative;
+}
+
+.showJobs p {
+    font-size: 16px;
+}
+
+section .datePost {
+    text-align: right;
+}
+
+section .logoCompany {
+    float : left;
+    border: 1px solid black;
+}
+
+section .companyDetails {
+    padding-left: 10px;
+    float       : left;
+}
+
+section .friends {
+    position: absolute;
+    bottom  : 5px;
+}
+
+section .seeDetailCompany {
+    position  : absolute;
+    top       : 80px;
+    left      : 120px;
+    background: #6369ED;
+    color     : white;
+    width     : 130px;
+    height    : 30px;
+    cursor    : pointer;
+}
+
+section .apply {
+    position  : absolute;
+    bottom    : 5px;
+    right     : 10px;
+    background: #0a9428;
+    color     : white;
+    width     : 100px;
+    height    : 30px;
+    cursor    : pointer;
+}

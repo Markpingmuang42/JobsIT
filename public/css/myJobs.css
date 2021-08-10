@@ -1,0 +1,52 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Mobtserrat', sans-serif;
+}
+
+/*======================== layout ========================*/
+.myJobs {
+    width     : 25%;
+    height    : 650px;
+    float     : left;
+    padding   : 15px;
+    /* border : 1px solid red; */
+}
+
+.myJobsMain {
+    width     : 75%;
+    height    : 650px;
+    float     : left;
+    padding   : 15px;
+    /* border : 1px solid red; */
+}
+
+/*======================== my jobs table ========================*/
+.myJobs .myJobsTable .myJobsTitle {
+    border    : 1px solid black;
+    font-size : 25px;
+    text-align: center;
+    margin-top: 30px;
+    background: #E94242;
+    color     : white;
+}
+
+.myJobs .myJobsTable .myJobsDetails {
+    border    : 1px solid black;
+    font-size : 20px;   
+    text-align: center;
+    margin-top: 2px;
+    background: #ffff;
+}
+
+.myJobs .myJobsTable .myJobsDetails a {
+    text-decoration: none;
+    color          : #000;
+}
+
+.myJobs .myJobsTable .myJobsDetails:hover {
+    padding   : 0 80px;
+    background: #6369ED;
+    color     : white;
+}

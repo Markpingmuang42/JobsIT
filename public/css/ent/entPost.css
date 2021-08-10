@@ -1,0 +1,452 @@
+* {
+    margin     : 0;
+    padding    : 0;
+}
+.mainBoxTwo{
+    width            : 900px;
+    height           : 1600px;
+    margin           : 10px 300px;
+    background       : #ffff;
+}
+.mainBoxthree{
+    width            : 900px;
+    height           : 1800px;
+    margin           : 10px 300px;
+    background       : #ffff;
+}
+
+.header{
+    height           : 35px;
+    background-color :#6369ED ;
+    color            : white;
+    border-radius    : 5px 5px 0 0;
+}
+.header p{
+    position         : relative;
+    left             : 9px;
+    top              : 1px;
+    font-size        : 25px;
+}
+/* -----------------------detail Jobs---------------------- */
+.nameCompany{
+    position         : relative;
+    left             : 60px;
+}
+.nameCompany label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.nameCompany input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.jobsType{
+    position         : relative;
+    left             : 60px;
+}
+.jobsType label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    width            : 100px;
+    color            : black;
+    font-size        : 15px;
+}
+.jobsType select{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.jobsTypeTwo{
+    position         : relative;
+    left             : 60px;
+}
+.jobsTypeTwo label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    width            : 100px;
+    color            : black;
+    font-size        : 15px;
+}
+.jobsTypeTwo input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.amount{
+    position         : relative;
+    left             : 60px;
+}
+.amount label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.amount input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.companyDetail{
+    position         : relative;
+    left             : 60px;
+}
+.companyDetail label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.companyDetail input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.textPost{
+    position         : relative;
+    left             : 60px;
+}
+.textPost label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.textPost textarea{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    height           :150px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.property{
+    position         : relative;
+    left             : 60px;
+}
+.property label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.property textarea{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    height           :150px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.welfare{
+    position         : relative;
+    left             : 60px;
+}
+.welfare label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.welfare textarea{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    height           :150px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.locationCompa{
+    position         : relative;
+    left             : 60px;
+}
+.locationCompa label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.locationCompa textarea{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    height           :150px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.nameCon{
+    position         : relative;
+    left             : 60px;
+}
+.nameCon label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.nameCon input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.imgLogo{
+    position         : relative;
+    left             : 60px;
+}
+.imgLogo label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.imgLogo input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.logoCompa{
+    position         : relative;
+    left             : 60px;
+}
+.logoCompa label{
+    position         : relative;
+    top              : 8px;
+    right            : 40px;
+    color            : black;
+    font-size        : 15px;
+}
+.logoCompa input {
+    position: absolute;
+    width   : 140px;
+    height  : 160px;
+    top     : 50px;
+    left    : -40px;
+    padding : 3px;
+    border  : 2px dashed #555;
+    cursor  : pointer;
+}
+/* -----------------------button---------------------- */
+.confirmPost{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6AC36A;
+    border           : 0;
+    outline          : none;
+    position         : absolute;
+    top              : 1645px;
+    left             : 1098px; 
+    border-radius    : 5px;
+}
+.cancelPost{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#F35A5A;
+    border           : 0;
+    outline          : none;
+    position         : absolute;
+    top              : 1645px;
+    left             : 1000px; 
+    border-radius    : 5px;
+}
+.confirmPostTwo{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6AC36A;
+    border           : 0;
+    outline          : none;
+    position         : absolute;
+    top              : 1845px;
+    left             : 1098px; 
+    border-radius    : 5px;
+}
+.cancelPostTwo{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#F35A5A;
+    border           : 0;
+    outline          : none;
+    position         : absolute;
+    top              : 1845px;
+    left             : 1000px; 
+    border-radius    : 5px;
+}
+/* -----------------------boxPost---------------------- */
+.Mbox{
+    background        : #ffffff;
+    height            : 500px;
+    width: 1000px;
+    font-size         : 14px;
+    position: relative;
+    left: 40px;
+    
+}
+.editPost{
+    font-size        : 24px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6369ED;
+    border           : 0;
+    outline          : none;
+    top              : 1545px;
+    left             : 1000px; 
+    border-radius    : 5px;
+}
+.deletePost{
+    font-size        : 24px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#F35A5A;
+    border           : 0;
+    outline          : none;
+    top              : 1545px;
+    left             : 1000px; 
+    border-radius    : 5px;
+    margin           : 5px;
+}
+/* ====================== photo resume ================================== */
+.resumeImage .selectPhoto {
+    position: absolute;
+    width   : 140px;
+    height  : 160px;
+    top     : 1525px;
+    left    : 690px;
+    padding : 3px;
+    border  : 2px dashed #555;
+    cursor  : pointer;
+}
+
+.resumeImage .selectPhoto input {
+    display: none;
+}
+
+.resumeImage .selectPhoto label {
+    display      : block;
+    width        : 100%;
+    height       : 20px;
+    line-height  : 20px;
+    text-align   : center;
+    background   : #333;
+    color        : #fff;
+    font-size    : 12px;
+    font-family  : "Open Sans", sans-serif;
+    font-weight  : 600;
+    border-radius: 10px;
+    cursor       : pointer;
+}
+
+.resumeImage .selectPhoto img {
+    width     : 100%;
+    display   : none;
+    margin-top: 3px;
+}

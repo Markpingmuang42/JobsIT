@@ -1,0 +1,216 @@
+* {
+    margin     : 0;
+    padding    : 0;
+}
+.mainBoxTwo{
+    width            : 900px;
+    height           : 690px;
+    margin           : 10px 300px;
+    background       : #ffff;
+}
+.header{
+    height           : 35px;
+    background-color :#6369ED ;
+    color            : white;
+}
+.header p{
+    position         : relative;
+    left             : 9px;
+    top              : 2px;
+    font-size        : 22px;
+}
+/* -----------------------data company edit-------------------- */
+.nameCompany{
+    position         : relative;
+    left             : 60px;
+    top              : 20px;
+}
+.nameCompany input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.typeCompany{
+    position         : relative;
+    left             : 60px;
+    top              : 20px;
+}
+.typeCompany select{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :47%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.nameCon{
+    position         : relative;
+    left             : 60px;
+    top              : 20px;
+}
+.nameCon input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :47%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.numberCom{
+    position         : relative;
+    left             : 60px;
+    top              : 20px;
+}
+.numberCom input{
+    position         : relative;
+    left             :400px ;
+    top              :-68px ;
+    width            :47%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.emailCompany{
+    position         : relative;
+    left             : 60px;
+    top              : -45px;
+}
+.emailCompany input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.locationCompany{
+    position         : relative;
+    left             : 60px;
+    top              : -45px;
+}
+.locationCompany input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.logoCompany{
+    position         : relative;
+    left             : 60px;
+    top              : -45px;
+    margin           : 15px 0px;
+}
+.logoCompany label{
+    position         : relative;
+    font-size        : 16px;
+    left             : -35px;
+}
+.logoCompany input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+.sertiCompany{
+    position         : relative;
+    left             : 60px;
+    top              : -45px;
+    margin           : 15px 0px;
+}
+.sertiCompany label{
+    position         : relative;
+    font-size        : 16px;
+    left             : -35px;
+}
+.sertiCompany input{
+    position         : relative;
+    right            : 40px;
+    top              :0 ;
+    width            :96%;
+    padding          :10px 5px;
+    margin           :15px 0px;
+    border-left      :1px solid #999;
+    border-top       : 1px solid #999;
+    border-right     : 1px solid #999;
+    border-bottom    : 1px solid #999;   
+}
+/* --------------------------button------------------------- */
+.editProfile{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#aaacd1;
+    border           : 0;
+    outline          : none;
+    position         :relative;
+    top              : -712px;
+    left             : 795px; 
+}
+.confirmProfile{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6AC36A;
+    border           : 0;
+    outline          : none;
+    position         : relative;
+    top              : -65px;
+    left             : 596px; 
+}
+.cancelProfile{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#F35A5A;
+    border           : 0;
+    outline          : none;
+    position         : relative;
+    top              : -65px;
+    left             : 596px; 
+}

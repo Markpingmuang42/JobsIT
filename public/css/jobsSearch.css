@@ -1,0 +1,151 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Mobtserrat', sans-serif;
+}
+
+/*======================== layout ========================*/
+.jobsSearchTable {
+    width           : 25%;
+    height          : 650px;
+    float           : left;
+    padding         : 15px;
+    /* border       : 1px solid red; */
+}
+
+.showJobs {
+    width     : 75%;
+    height    : 650px;
+    float     : left;
+    padding   : 15px;
+    /* border : 1px solid red; */
+}
+
+/*======================== jobs search table ========================*/
+.jobsSearchTable .jobsSearchTitle {
+    border    : 1px solid black;
+    font-size : 25px;
+    text-align: center;
+    margin-top: 30px;
+    background: #E94242;
+    color     : white;
+}
+
+/*======================== dropdown ========================*/
+.jobsSearchTable .jobsSearchDetails a,
+.dropdown-btn {
+    padding         : 6px 8px 6px 16px;
+    text-decoration : none;
+    font-size       : 20px;
+    color           : black;
+    display         : block;
+    border          : none;
+    background-color: white;
+    width           : 100%;
+    text-align      : left;
+    cursor          : pointer;
+    outline         : none;
+}
+
+.jobsSearchTable .jobsSearchDetails a:hover,
+.dropdown-btn:hover {
+    color           : white;
+    background-color: #6369ED;
+}
+
+.active {
+    background-color: #6369ED;
+    color           : white;
+}
+
+.jobsSearchTable .jobsSearchDetails .dropdown-container {
+    display         : none;
+    background-color: white;
+    padding-left    : 8px;
+}
+
+.jobsSearchTable .jobsSearchDetails .fa-caret-down {
+    float        : right;
+    padding-right: 8px;
+}
+
+/*======================== salary ========================*/
+.salary p {
+    font-size: 20px;
+}
+
+.salary .salaryInput {
+    padding-top: 5px;
+}
+
+.salary .salaryInput input {
+    height       : 50px;
+    width        : 270px;
+    border       : none;
+    outline      : none;
+    padding      : 0 10px;
+    color        : #000;
+    font-size    : 16px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* ======================== ระยะทาง ======================== */
+.jobsSearchDetails p {
+    font-size: 20px;
+}
+
+/* ============================= section ============================= */
+section {
+    width     : auto;
+    height    : 180px;
+    border    : 1px solid black;
+    background: #ffff;
+    margin-top: 10px;
+    padding   : 10px;
+    position  : relative;
+}
+
+.showJobs p {
+    font-size: 16px;
+}
+
+section .datePost {
+    text-align: right;
+}
+
+section .logoCompany {
+    float : left;
+    border: 1px solid black;
+}
+
+section .companyDetails {
+    padding-left: 10px;
+    float       : left;
+}
+
+section .friends {
+    position: absolute;
+    bottom  : 5px;
+}
+
+section .interested {
+    position  : absolute;
+    bottom    : 5px;
+    right     : 120px;
+    background: #FDBD71;
+    width     : 80px;
+    height    : 30px;
+    cursor    : pointer;
+}
+
+section .seeDetail {
+    position  : absolute;
+    bottom    : 5px;
+    right     : 10px;
+    background: #6369ED;
+    color     : white;
+    width     : 100px;
+    height    : 30px;
+    cursor    : pointer;
+}

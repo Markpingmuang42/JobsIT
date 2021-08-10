@@ -1,0 +1,621 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Mobtserrat', sans-serif;
+}
+
+/*======================== layout ========================*/
+.history {
+    width     : 900px;
+    height    : 1420px;
+    margin    : 10px 300px;
+    background: #ffff;
+    /* border : 1px solid red; */
+}
+
+/*======================== history title ========================*/
+.history .historyTitle {
+    background-color: #E94242;
+}
+
+.history .historyTitle p {
+    color     : #ffff;
+    text-align: center;
+    font-size : 25px;
+}
+
+.history .myHistory p {
+    margin   : 10px 100px;
+    font-size: 20px;
+}
+
+/*======================== ประวัติส่วนตัว ========================*/
+.history .myHistory p {
+    margin   : 10px 100px;
+    font-size: 20px;
+}
+
+/*======================== ตำนำหน้า ========================*/
+.myHistory .checkbox {
+    top        : 10px;
+    margin-left: 100px;
+}
+
+.myHistory .checkbox label {
+    font-size: 16px;
+}
+
+/*======================== ชื่อ นามสกุล ========================*/
+.myHistory .firstNameInput {
+    position: absolute;
+    left    : 620px;
+    top     : 165px;
+}
+
+.myHistory .lastNameInput {
+    position: absolute;
+    right   : 430px;
+    top     : 165px;
+}
+
+.myHistory .firstNameInput input,
+.lastNameInput input {
+    padding: 5px;
+}
+
+.myHistory .firstNameInput label,
+.lastNameInput label {
+    font-size: 16px;
+}
+
+/*======================== อีเมล ========================*/
+.myHistory .emailInput {
+    position: absolute;
+    left    : 400px;
+    top     : 210px;
+}
+
+.myHistory .emailInput input {
+    padding: 5px;
+}
+
+.myHistory .emailInput label {
+    font-size: 16px;
+}
+
+/*======================== เบอร์ติดต่อ ========================*/
+.myHistory .phoneNumberInput {
+    position: absolute;
+    left    : 650px;
+    top     : 210px;
+}
+
+.myHistory .phoneNumberInput input {
+    padding: 5px;
+}
+
+.myHistory .phoneNumberInput label {
+    font-size: 16px;
+}
+
+/*======================== วันเกิด ========================*/
+.myHistory .birthday {
+    position: absolute;
+    left    : 400px;
+    top     : 260px;
+}
+
+.myHistory .birthday label {
+    font-size: 16px;
+}
+
+/*======================== อายุ ========================*/
+.myHistory .yearOld {
+    position: absolute;
+    left    : 620px;
+    top     : 260px;
+}
+
+.myHistory .yearOld label {
+    font-size: 16px;
+}
+
+.myHistory .yearOld .selectYears {
+    padding: 5px;
+}
+
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+/*======================== ประวัติการศึกษา ========================*/
+.history .educationsHistory p {
+    margin   : 10px 100px;
+    font-size: 20px;
+}
+
+/*======================== มหาลัย คณะ  ========================*/
+.educationsHistory .universityInput {
+    position: absolute;
+    left    : 400px;
+    top     : 370px;
+}
+
+.educationsHistory .facultyInput {
+    position: absolute;
+    right   : 500px;
+    top     : 370px;
+}
+
+.educationsHistory .universityInput input {
+    width: 200px;
+}
+
+.educationsHistory .universityInput input,
+.facultyInput input {
+    padding: 5px;
+}
+
+.educationsHistory .universityInput label,
+.facultyInput label {
+    font-size: 16px;
+}
+
+/*======================== สาขา ========================*/
+.educationsHistory .branchInput {
+    position: absolute;
+    left    : 400px;
+    top     : 410px;
+}
+
+.educationsHistory .branchInput input {
+    padding: 5px;
+}
+
+.educationsHistory .branchInput label {
+    font-size: 16px;
+}
+
+/*======================== GPA ========================*/
+.educationsHistory .gpaInput {
+    position: absolute;
+    left    : 650px;
+    top     : 410px;
+}
+
+.educationsHistory .gpaInput input {
+    padding: 5px;
+}
+
+.educationsHistory .gpaInput label {
+    font-size: 16px;
+}
+
+/*======================== วุฒิการศึกษา ========================*/
+.educationsHistory .checkbox2 {
+    top        : 450px;
+    margin-left: 100px;
+    position   : absolute;
+}
+
+.educationsHistory .checkbox2 label {
+    font-size: 16px;
+}
+
+
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+/*======================== ประสบการณ์การทำงาน ========================*/
+.history .myExperience p {
+    margin   : 10px 100px;
+    font-size: 20px;
+}
+
+/*======================== ประสบการณ์ที่เคยทำงานกับบริษัท ========================*/
+.myExperience .usedToWorkInput {
+    position: absolute;
+    left    : 400px;
+    top     : 550px;
+}
+
+.myExperience .usedToWorkInput input {
+    padding: 5px;
+    width  : 300px;
+}
+
+.myExperience .usedToWorkInput label {
+    font-size: 16px;
+}
+
+/* ========================== ภาษาที่ถนัด ================================ */
+.myExperience .dominantLanguageInput {
+    position: absolute;
+    left    : 400px;
+    top     : 600px;
+}
+
+.myExperience .dominantLanguageInput textarea {
+    padding    : 5px;
+    margin-left: 80px;
+}
+
+.myExperience .dominantLanguageInput label {
+    font-size: 16px;
+}
+
+/* ========================== ภาษาที่เคยเรียนรู้ ================================ */
+.myExperience .LanguageLearnedInput {
+    position: absolute;
+    left    : 400px;
+    top     : 710px;
+}
+
+.myExperience .LanguageLearnedInput textarea {
+    padding    : 5px;
+    margin-left: 47px;
+}
+
+.myExperience .LanguageLearnedInput label {
+    font-size: 16px;
+}
+
+/* ========================== ความสามารถพิเศษ ================================ */
+.myExperience .charismaInput {
+    position: absolute;
+    left    : 400px;
+    top     : 820px;
+}
+
+.myExperience .charismaInput textarea {
+    padding    : 5px;
+    margin-left: 35px;
+}
+
+.myExperience .charismaInput label {
+    font-size: 16px;
+}
+
+/* ========================== ผบงาน ================================ */
+.myExperience .certi {
+    position: absolute;
+    left    : 400px;
+    top     : 930px;
+}
+
+.myExperience .certi input {
+    padding    : 5px;
+    margin-left: 35px;
+}
+
+.myExperience .certi label {
+    font-size: 16px;
+}
+
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+/*======================== ภูมิลำเนา ========================*/
+.history .domicile p {
+    margin   : 10px 100px;
+    font-size: 20px;
+}
+
+/*======================== หมู่บ้าน บ้านเลขที่ ========================*/
+.domicile .nameVillage {
+    position: absolute;
+    left    : 400px;
+    top     : 1030px;
+}
+
+.domicile .homeNumber {
+    position: absolute;
+    right   : 550px;
+    top     : 1030px;
+}
+
+.domicile .nameVillage input {
+    margin-left: 21px;
+}
+
+/* .domicile .homeNumber input {
+    margin-left: 21px;
+} */
+
+.domicile .nameVillage input,
+.homeNumber input {
+    padding: 5px;
+}
+
+.domicile .nameVillage label,
+.homeNumber label {
+    font-size: 16px;
+}
+
+/*======================== ซอย ========================*/
+.domicile .alley {
+    position: absolute;
+    left    : 400px;
+    top     : 1070px;
+}
+
+.domicile .alley input {
+    padding    : 5px;
+    margin-left: 0px;
+}
+
+.domicile .alley label {
+    font-size: 16px;
+}
+
+/*======================== ถนน ========================*/
+.domicile .road {
+    position: absolute;
+    right   : 550px;
+    top     : 1070px;
+}
+
+.domicile .road input {
+    padding: 5px;
+}
+
+.domicile .road label {
+    font-size: 16px;
+}
+
+/*======================== ตำบล ========================*/
+.domicile .district {
+    position: absolute;
+    left    : 400px;
+    top     : 1110px;
+}
+
+.domicile .district input {
+    padding    : 5px;
+    margin-left: 32px;
+}
+
+.domicile .district label {
+    font-size: 16px;
+}
+
+/*======================== อำเภอ ========================*/
+.domicile .canton {
+    position: absolute;
+    right   : 550px;
+    top     : 1110px;
+}
+
+.domicile .canton input {
+    padding: 5px;
+}
+
+.domicile .canton label {
+    font-size: 16px;
+}
+
+/*======================== จังหวัด ========================*/
+.domicile .province {
+    position: absolute;
+    left    : 400px;
+    top     : 1150px;
+}
+
+.domicile .province input {
+    padding    : 5px;
+    margin-left: 25px;
+}
+
+.domicile .province label {
+    font-size: 16px;
+}
+
+/*======================== รหัสไปรษณี ========================*/
+.domicile .postalCode {
+    position: absolute;
+    right   : 550px;
+    top     : 1150px;
+}
+
+.domicile .postalCode input {
+    padding: 5px;
+}
+
+.domicile .postalCode label {
+    font-size: 16px;
+}
+
+
+/* ============================================================================================================== */
+/* ============================================================================================================== */
+/*======================== ที่อยู่ปัจจุบัน ========================*/
+.history .myDomicile p {
+    margin   : 10px 100px;
+    font-size: 20px;
+}
+
+/*======================== หมู่บ้าน บ้านเลขที่ ========================*/
+.myDomicile .myNameVillage {
+    position: absolute;
+    left    : 400px;
+    top     : 1250px;
+}
+
+.myDomicile .myHomeNumber {
+    position: absolute;
+    right   : 550px;
+    top     : 1250px;
+}
+
+.myDomicile .myNameVillage input {
+    margin-left: 21px;
+}
+
+.myDomicile .myNameVillage input,
+.myHomeNumber input {
+    padding: 5px;
+}
+
+.myDomicile .myNameVillage label,
+.myHomeNumber label {
+    font-size: 16px;
+}
+
+/*======================== ซอย ========================*/
+.myDomicile .myAlley {
+    position: absolute;
+    left    : 400px;
+    top     : 1290px;
+}
+
+.myDomicile .myAlley input {
+    padding    : 5px;
+    margin-left: 0px;
+}
+
+.myDomicile .myAlley label {
+    font-size: 16px;
+}
+
+/*======================== ถนน ========================*/
+.myDomicile .myRoad {
+    position: absolute;
+    right   : 550px;
+    top     : 1290px;
+}
+
+.myDomicile .myRoad input {
+    padding: 5px;
+}
+
+.myDomicile .myRoad label {
+    font-size: 16px;
+}
+
+/*======================== ตำบล ========================*/
+.myDomicile .myDistrict {
+    position: absolute;
+    left    : 400px;
+    top     : 1330px;
+}
+
+.myDomicile .myDistrict input {
+    padding    : 5px;
+    margin-left: 32px;
+}
+
+.myDomicile .myDistrict label {
+    font-size: 16px;
+}
+
+/*======================== อำเภอ ========================*/
+.myDomicile .myCanton {
+    position: absolute;
+    right   : 550px;
+    top     : 1330px;
+}
+
+.myDomicile .myCanton input {
+    padding: 5px;
+}
+
+.myDomicile .myCanton label {
+    font-size: 16px;
+}
+
+/*======================== จังหวัด ========================*/
+.myDomicile .myProvince {
+    position: absolute;
+    left    : 400px;
+    top     : 1370px;
+}
+
+.myDomicile .myProvince input {
+    padding    : 5px;
+    margin-left: 25px;
+}
+
+.myDomicile .myProvince label {
+    font-size: 16px;
+}
+
+/*======================== รหัสไปรษณี ========================*/
+.myDomicile .myPostalCode {
+    position: absolute;
+    right   : 550px;
+    top     : 1370px;
+}
+
+.myDomicile .myPostalCode input {
+    padding: 5px;
+}
+
+.myDomicile .myPostalCode label {
+    font-size: 16px;
+}
+
+/*======================== edit btn ========================*/
+.editBtn {
+    width           : 100px;
+    background-color: rgb(231, 231, 54);
+    color           : black;
+    padding         : 14px 20px;
+    position        : absolute;
+    left            : 350px;
+    top             : 1450px;
+    border          : none;
+    border-radius   : 4px;
+    cursor          : pointer;
+}
+
+.editBtn:hover {
+    background-color: rgb(226, 226, 41);;
+}
+
+/* ======================== submit btn  ========================== */
+input[type=submit] {
+    width           : 100px;
+    background-color: #4CAF50;
+    color           : white;
+    padding         : 14px 20px;
+    position        : absolute;
+    right           : 500px;
+    top             : 1450px;
+    border          : none;
+    border-radius   : 4px;
+    cursor          : pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* ======================== submit btn  ========================== */
+.backBtn {
+    width           : 100px;
+    background-color: #ee3860;
+    color           : white;
+    padding         : 14px 20px;
+    position        : absolute;
+    right           : 380px;
+    top             : 1450px;
+    border          : none;
+    border-radius   : 4px;
+    cursor          : pointer;
+}
+
+.backBtn:hover {
+    background-color: #ec2b55;
+}
+
+/* ======================= gototopbtn ================= */
+.gotoTopbtn {
+    position       : fixed;
+    width          : 50px;
+    height         : 50px;
+    background     : #27ae60;
+    bottom         : 40px;
+    right          : 50px;
+    text-decoration: none;
+    text-align     : center;
+    line-height    : 50px;
+    color          : #fff;
+    font-size      : 22px;
+}

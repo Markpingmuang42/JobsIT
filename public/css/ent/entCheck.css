@@ -1,0 +1,179 @@
+* {
+    margin     : 0;
+    padding    : 0;
+}
+.boxOne{
+    position         : relative;
+    width            : 1200px;
+    height           : 655px;
+    top              : 20px;
+    left             : 230px;
+}
+/* ---------------------------boxLeft -------------------------*/
+.boxLeft{
+    position         : relative;
+    width            : 600px;
+    height           : 645px;
+    margin           : 10px 300px;
+    background       : #ffff;
+    left             : -400px;
+    border-radius    : 0 0 5px 5px;
+}
+/* ---------------------------boxRight-------------------------*/
+.boxRight{
+    position         : absolute;
+    width            : 600px;
+    height           : 645px;
+    margin           : 10px 300px;
+    background       :white;
+    left             : 470px;
+    top              : 100px;
+    border-radius    : 0 0 5px 5px;
+}
+/* ------------------- date inside boxLeft -------------------*/
+.headerL{
+    height           : 35px;
+    background-color :#6369ED ;
+    color            : white;
+    font-size        : 20px;
+    border-radius    : 5px 5px 0 0;
+}
+.headerL label{
+    position         : relative;
+    top              : 5px;
+    left             : 5px;
+}
+.applBox{
+    position         : relative;
+    left             : 15px;
+    height           : 250px;
+    width            : 95%;
+    top              : -5px;
+    background-color : rgb(218, 218, 218);
+    margin           : 19px 0px;
+    border-radius    : 0 0 5px ;
+}
+.imgAppl{
+    position         : relative;
+    float            : left;
+    top              : 25px;
+    left             : 8px;
+    height           : 100%;
+}
+.textAppl{
+    position         : relative;
+    font-size        : 16px;
+    top              : 25px;
+    left             : 22px;
+    width            : 400px;
+
+}
+.textAppl p{
+    position         : relative;
+    left             : 5px;
+    margin           : 9px 0px;
+}
+.textdate{
+    position         : absolute;
+    left             : 435px;
+    width            : 100px;
+    top              : -30px;
+}
+/*--------------------------- button boxL-------------------------*/
+.viewAppl{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 150px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6369ED;
+    border           : 0;
+    outline          : none;
+    position         :relative;
+    top              : 35px;
+    left             : 20px; 
+    border-radius    : 5px;
+}
+.acceptAppl{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6AC36A;
+    border           : 0;
+    outline          : none;
+    position         : relative;
+    top              : 35px;
+    left             : 20px; 
+    border-radius    : 5px;
+}
+.rejectAppl{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#F35A5A;
+    border           : 0;
+    outline          : none;
+    position         : relative;
+    top              : 35px;
+    left             : 20px;
+    border-radius    : 5px; 
+}
+.saveform{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#e79b3e;
+    border           : 0;
+    outline          : none;
+    position         : relative;
+    top              : 35px;
+    left             : 20px; 
+    border-radius    : 5px;
+}
+/*--------------------------- button boxR-------------------------*/
+.viewApplR{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 150px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#6369ED;
+    border           : 0;
+    outline          : none;
+    position         :relative;
+    top              : 35px;
+    left             : 215px; 
+    border-radius    : 5px;
+}
+.deleteAppl{
+    font-size        : 16px;
+    text-align       : center;
+    color            :#ffffff;
+    width            : 90px;
+    height           : 35px;
+    padding          : 5px;
+    cursor           : pointer;
+    background       :#F35A5A;
+    border           : 0;
+    outline          : none;
+    position         : relative;
+    top              : 35px;
+    left             : 215px; 
+    border-radius    : 5px;
+}

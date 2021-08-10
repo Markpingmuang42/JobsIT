@@ -1,0 +1,139 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Mobtserrat', sans-serif;
+}
+
+/*======================== layout ========================*/
+.listName {
+    width     : 25%;
+    height    : 650px;
+    float     : left;
+    padding   : 15px;
+    /* border : 1px solid red; */
+}
+
+.listJobs {
+    width     : 50%;
+    height    : 650px;
+    float     : left;
+    padding   : 15px;
+    /* border : 1px solid red; */
+}
+
+.topLessJobs {
+    width     : 25%;
+    height    : 650px;
+    float     : left;
+    padding   : 15px;
+    /* border : 1px solid red; */
+}
+
+/* ======================== การฝากประวัติ ======================== */
+.listName .history {
+    width     : 250px;
+    height    : 60px;
+    background: #E94242;
+    color     : white;
+    font-size : 20px;
+    margin    : 10px 0 0 50px;
+    cursor    : pointer;
+}
+
+/* ======================== คนที่อาจรู้จัก ======================== */
+.listName .listNameTable table,
+th,
+td {
+    border    : 1px solid black;
+    font-size : 20px;
+    text-align: center;
+    margin-top: 30px;
+    height    : 40px;
+}
+
+.listName .listNameTable .maybeFine {
+    background: #E94242;
+    color     : white;
+}
+
+.listName .listNameTable .maybeFineName {
+    background: #ffff;
+}
+
+/* ======================== top less jobs ======================== */
+.topLessJobs .topLessJobsTable table,
+th,
+td {
+    border    : 1px solid black;
+    font-size : 20px;
+    text-align: center;
+    margin-top: 30px;
+    height    : 40px;
+}
+
+.topLessJobs .topLessJobsTable .topLessJobsTitle {
+    background: #E94242;
+    color     : white;
+}
+
+.topLessJobs .topLessJobsTable .topLessJobsDetail {
+    background: #ffff;
+}
+
+/* ======================== layout list Jobs ======================== */
+section {
+    width        : 700px;
+    height       : 180px;
+    border       : 1px solid black;
+    background   : #ffff;
+    margin-top   : 10px;
+    padding      : 10px;
+    /* position  : absolute; */
+    /* border    : 1px solid red; */
+}
+
+.listJobs p {
+    font-size: 16px;
+}
+
+section .datePost {
+    text-align: right;
+}
+
+section .logoCompany {
+    float : left;
+    border: 1px solid black;
+}
+
+section .companyDetails {
+    padding-left: 10px;
+    float       : left;
+}
+
+section .friends {
+    margin: 120px 0 5px 10px;
+}
+
+section .interested, .interested2{
+    /* position  : fixed; */
+    /* top       : 155px;
+    right     : 400px; */
+    margin: 0 0 0 500px;
+    background: #FDBD71;
+    width     : 80px;
+    height    : 30px;
+    cursor    : pointer;
+}
+
+section .seeDetail {
+    /* position  : absolute; */
+    /* position  : fixed; */
+    bottom    : 5px;
+    right     : 10px;
+    background: #6369ED;
+    color     : white;
+    width     : 100px;
+    height    : 30px;
+    cursor    : pointer;
+}

@@ -1,0 +1,91 @@
+* {
+    margin     : 0;
+    padding    : 0;
+}
+
+/*------------------- img --------------------*/
+.imgAppl{
+    position          : relative;
+    float             : left;
+    top               : 30px;
+    left              : 50px;
+    
+}
+/*------------------- mainbox --------------------*/
+.mainBox{
+    position          : absolute;
+    height            :100% ;
+    width             : 500px;
+    left              : 150px;
+}
+/*------------------- botton manu --------------------*/
+.buttonBox{
+    position: absolute;
+    height: 250px;
+    width: 100px;
+    left: 32px;
+    top:265px ;
+    padding: 10px;
+}
+.buttonBox button{
+    background: #6369ED;
+    color     : white;
+    width     : 180px;
+    height    : 35px;
+    cursor    : pointer;
+    border: 0px;
+    margin: 8px;
+
+}
+/*------------------- section datadetail --------------------*/
+section{
+    width     : 898px;
+    height    : 250px;
+    border    : 1px solid black;
+    background: #ffff;
+    top: 8px;
+    left: 300px;
+    position  : relative;
+    margin: 20px 0;
+}
+section .dataHistoryDetail{
+    position: absolute;
+    background-color:#6369ED ;
+    width: 897px;
+    height: 35px;
+    left: 0px;
+    
+}
+section .dataHistoryDetail label {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    left: 15px;
+    top: 6px;   
+}
+section .dataData{
+    position: relative;
+    top: 45px;
+    font-size: 16px;
+    left: 15px;
+    
+}
+section .dataData p{
+    margin: 8px 0;
+}
+section .dataDataR{
+    position: relative;
+    top: -118px;
+    font-size: 16px;
+    left: 400px;
+    width: 280px ;
+}
+section .dataDataR p{
+    margin: 8px 0;
+
+}
+/*------------------- foot --------------------*/
+.footer{
+    height: 90px;
+}
+
